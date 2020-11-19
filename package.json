@@ -1,0 +1,27 @@
+{
+  "name": "temperature_calc",
+  "version": "1.0.0",
+  "description": "A program that converts temperatures from Fahrenheit to Celsius or vice versa.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "jasmine": "^3.6.3",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1"
+  },
+  "scripts": {
+    "test": "npx jasmine spec/TemperatureSpec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chokonaira/temperature_calc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chokonaira/temperature_calc/issues"
+  },
+  "homepage": "https://github.com/chokonaira/temperature_calc#readme"
+}
