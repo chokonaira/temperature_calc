@@ -1,14 +1,9 @@
 class TemperatureCalc{
-  temperature:number;
-  constructor(temperature:number){
-    this.temperature = temperature;
-  }
-
-  calculator(scale:string){
+  calculator(temperature:number,scale:string){
     if (scale === 'fahrenheit'){
-      return (this.temperature * 9 / 5) + 32
+      return (temperature * 9 / 5) + 32
     } else if(scale=== 'celsius'){
-      return (this.temperature - 32) * 5/9
+      return (temperature - 32) * 5/9
     } else {
       return 0
     }
